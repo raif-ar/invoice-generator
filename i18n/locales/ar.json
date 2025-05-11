@@ -4,20 +4,19 @@
     "description": "إنشاء الفاتورة",
     "newInvBadge": "فاتورة جديدة",
     "wizard": {
-      "fromAndTo": "من & إلى",
+      "to": "إلى",
       "invoiceDetails": "تفاصيل الفاتورة",
       "lineItems": "عناصر الفاتورة",
-      "paymentInfo": "معلومات الدفع",
       "summary": "الملخص",
       "next": "التالي",
       "back": "السابق"
     },
     "steps": {
-      "fromAndTo": {
-        "billFrom": "الفاتورة من",
+      "to": {
         "billTo": "الفاتورة إلى",
         "name": "الاسم",
         "address": "العنوان",
+        "website": "الموقع الإلكتروني",
         "zipCode": "الرمز البريدي",
         "city": "المدينة",
         "country": "الدولة",
@@ -33,7 +32,9 @@
           "label": "شعار الفاتورة",
           "placeholder": "اضغط لتحميل الصورة"
         },
+        "quotationNumber": "رقم الاقتباس",
         "invoiceNumber": "رقم الفاتورة",
+        "salesPerson": "اسم البائع",
         "issuedDate": "تاريخ الإصدار",
         "dueDate": "تاريخ الاستحقاق",
         "currency": "العملة"
@@ -41,19 +42,12 @@
       "lineItems": {
         "heading": "العناصر",
         "item": "العنصر",
-        "name": "الاسم",
+        "name": "الوصف",
         "quantity": "الكمية",
         "rate": "السعر",
         "total": "الإجمالي",
-        "description": "الوصف",
         "addNewItem": "إضافة عنصر جديد",
         "removeItem": "إزالة العنصر"
-      },
-      "paymentInfo": {
-        "heading": "معلومات الدفع",
-        "bankName": "اسم البنك",
-        "accountName": "اسم الحساب",
-        "accountNumber": "رقم الحساب"
       },
       "summary": {
         "heading": "الملخص",
@@ -66,6 +60,7 @@
         },
         "additionalNotes": "ملاحظات إضافية",
         "paymentTerms": "شروط الدفع",
+        "advancePayment": "الدفعة المقدمة",
         "discount": "الخصم",
         "tax": "الضريبة",
         "shipping": "الشحن",
@@ -85,8 +80,5 @@
     "newInvoice": "فاتورة جديدة",
     "generatePdf": "إنشاء PDF",
     "pdfView": "عرض PDF"
-  },
-  "footer": {
-    "developedBy": "تم تطويره بواسطة"
   }
 }
